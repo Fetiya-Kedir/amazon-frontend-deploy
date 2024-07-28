@@ -1,0 +1,75 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_contaniner img {
+  width: 100px;
+  margin-top: 20px;
+  object-fit: contain;
+}
+.sign_container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.sign_container h1 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+.sign_container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sign_container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sign_container form input {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: white;
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+
+}
+.sign_container form input:focus{
+  outline: 2px solid skyblue;
+}
+.sign_button{
+  border: none;
+  background: #f0c14b;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sign_container p{
+  padding: 10px 0px;
+  font-size: 14px;
+
+}
+.sign_account{
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sign_button:hover{
+  background-color:var(--primary-shade);
+}
+.sign_account:hover{
+  background-color: lightblue;
+}
